@@ -58,7 +58,7 @@ echo "INSTALLING PHP Important Extensions"
 echo "##############"
 echo " "
 
-sudo apt-get install php7.0-mcrypt php7.0-curl php7.0-zip php7.0-dom php7.0-gd php7.0-intl php7.0-mbstring -y --force-yes
+sudo apt-get install php7.0-mcrypt php7.0-curl php7.0-zip php7.0-dom php7.0-gd php7.0-intl php7.0-mbstring libapache2-mod-php7.0 -y --force-yes
 
 
 echo " "
@@ -81,7 +81,7 @@ echo "#####################"
 echo " "
 
 sudo apt-get install phpmyadmin apache2-utils -y
-#echo 'Include /etc/phpmyadmin/apache.conf' >> /etc/apache2/apache2.conf
+echo 'Include /etc/phpmyadmin/apache.conf' >> /etc/apache2/apache2.conf
 
 echo " "
 echo "###########################"
