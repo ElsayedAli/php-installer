@@ -58,7 +58,7 @@ echo "INSTALLING PHP Important Extensions"
 echo "##############"
 echo " "
 
-sudo apt-get install php7.0-mcrypt php7.0-curl php7.0-zip php7.0-dom php7.0-gd php7.0-intl php7.0-mbstring -y --force-yes
+sudo apt-get install php7.2-mcrypt php7.2-curl php7.2-zip php7.2-dom php7.2-gd php7.2-intl php7.2-mbstring -y --force-yes
 
 
 echo " "
